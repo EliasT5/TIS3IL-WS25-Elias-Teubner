@@ -1,0 +1,35 @@
+[project]
+name = "tis3il"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "adbc-driver-manager>=1.8.0",
+    "adbc-driver-postgresql>=1.8.0",
+    "joblib>=1.5.2",
+    "jupyter>=1.1.1",
+    "lightgbm>=4.6.0",
+    "matplotlib>=3.10.7",
+    "mkdocs>=1.6.1",
+    "mkdocs-material>=9.6.22",
+    "mlforecast>=1.0.2",
+    "numpy>=2.3.4",
+    "pandas>=2.3.3",
+    "polars>=1.35.1",
+    "psycopg[binary]>=3.2.12",
+    "pytest>=8.4.2",
+    "python-dotenv>=1.2.1",
+    "scikit-learn>=1.7.2",
+    "scipy>=1.15,<1.16",
+    "sqlalchemy>=2.0.44",
+    "statsforecast>=2.0.3",
+    "statsmodels>=0.14.5",
+]
+
+[build-system]
+requires = ["setuptools>=80"]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools.packages.find]
+where = ["src"]

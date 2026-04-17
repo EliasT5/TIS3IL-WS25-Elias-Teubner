@@ -1,0 +1,15 @@
+.venv/
+.site/
+site/
+__pycache__/
+*.pyc
+*.egg-info/
+.DS_Store
+.env
+data/raw/
+data/*.csv
+data/*.zip
+data/*.parquet
+data/processed/*.parquet
+docs/assets/*.png
+docs/assets/*.pdf

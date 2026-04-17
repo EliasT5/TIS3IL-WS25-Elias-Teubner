@@ -1,0 +1,12 @@
+﻿site_name: TIS3IL WS25 - Elias Teubner
+theme:
+  name: material
+nav:
+  - Exercise 2 - M5 Data: exercise2_m5_data.md
+  - Exercise 3 - Database IO: exercise3_database_io.md
+  - Exercise 4 - Revenue Analysis: exercise4_revenue_analysis.md
+  - Exercise 5 - Monthly Forecasting: exercise5_monthly_forecasting.md
+  - Exercise 6 - ML and Neural Forecasts: exercise6_ml_neural.md
+  - Exercise 7 - Hierarchical Forecasts: exercise7_hierarchical.md
+
+
